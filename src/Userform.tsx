@@ -8,7 +8,7 @@ interface IForm {
     password2: string;
 }
 
-const TodoList = () => {
+const Userform = () => {
 
     const { register, handleSubmit, formState: { errors }, setError } = useForm<IForm>(
         {
@@ -63,4 +63,4 @@ const TodoList = () => {
     );
 };
 
-export default TodoList;
+export default Userform;
